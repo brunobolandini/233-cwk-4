@@ -1,0 +1,100 @@
+body{
+	background-color: black; 
+	color:white;
+	font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+h1{
+	font-weight: normal;
+}
+
+h3{
+	font-weight: normal;
+	text-align: left;
+	color: #33FF00;
+}
+
+p {
+	margin: 20px;
+}
+
+/* menu on the left */
+#navigation_panel_left{	
+	float: left;	
+	background-color: black;
+	width: 200px;
+	height: 900px;
+	margin-top   	: 10px;
+   margin-left   	: 0px;
+   margin-right  	: 15px;
+   margin-bottom 	: 10px;
+   border  	  		: solid #33FF00;
+   padding 	  		: 5px;
+}
+
+/* header of the website */
+#header_panel{ 
+	position: relative; 
+	background-color: black;
+	text-align: center;
+	margin: -10px;
+	border: solid #33FF00;
+}
+
+/* content panel */
+#content_box{ 
+	position: static;
+	margin-top:10px;
+	background-color: black;
+	
+}
+.wrong{
+	color:red;
+}
+.right{
+	color:cyan;
+}
+.blanck{
+	color:grey;
+}
+
+/* font sizes */
+.font_80 {
+    font-size: 80%; /* 80% of default font size */
+}
+.font_90 {
+    font-size: 90%; /* 90% of default font size */
+}
+.font_100 {
+    font-size: 100%; /* 100% of default font size */
+}
+.font_110 {
+    font-size: 110%; /* 110% of default font size */
+}
+.font_120 {
+    font-size: 120%; /* 120% of default font size */
+}
+
+/* link colours */
+a:link {
+    color: #33FF00;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #33FF00;
+}
+
+/* mouse over link */
+a:hover{
+	color: #b3ff00;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+.result{
+	color:#FF0099;
+}
